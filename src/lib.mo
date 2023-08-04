@@ -44,6 +44,6 @@ module {
 
 	public type StreamingCallbackResponse = {
 		body : Blob;
-		token : StreamingToken;
+		token : ?StreamingToken;
 	};
 };
