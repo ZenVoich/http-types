@@ -1,0 +1,16 @@
+name: publish on mops
+
+on:
+  release:
+    types: [released]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ZenVoich/setup-mops@v1
+        with:
+          identity-pem: ${{ secrets.MOPS_IDENTITY_PEM }}
+
+      - name: Publish to the Mops Registry
+        run: mops publish
