@@ -1,3 +1,6 @@
+[![mops](https://oknww-riaaa-aaaam-qaf6a-cai.raw.ic0.app/badge/mops/http-types)](https://mops.one/http-types)
+[![documentation](https://oknww-riaaa-aaaam-qaf6a-cai.raw.ic0.app/badge/documentation/http-types)](https://mops.one/http-types/docs)
+
 # Canister HTTP interface types
 
 More https://internetcomputer.org/docs/current/references/http-gateway-protocol-spec/
