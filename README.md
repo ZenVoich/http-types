@@ -24,3 +24,9 @@ public query func http_request(request : HttpTypes.Request) : async HttpTypes.Re
   };
 }
 ```
+
+## HTTP outcalls
+
+HTTP outcalls have slightly different types than inbound HTTP calls.
+
+Use the [ic](https://mops.one/ic) Motoko package for HTTP outcalls. [Docs](https://mops.one/ic/docs#type.HttpHeader)
